@@ -16,6 +16,16 @@ namespace helpdesk_tickets.Controllers
             return View();
         }
 
+        public IActionResult CustomerDashboard()
+        {
+            return View();
+        }
+
+        public IActionResult ITStaffDashboard()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

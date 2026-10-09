@@ -26,6 +26,11 @@ namespace helpdesk_tickets.Controllers
             return View();
         }
 
+        public void ThisMethodIsNotUsedForAnythingAndShouldNotBeCalledAtAll()
+        {
+            Console.WriteLine("Easter Egg!!!!!!!!!!!!!!");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

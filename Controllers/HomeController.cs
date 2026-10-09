@@ -18,6 +18,7 @@ namespace helpdesk_tickets.Controllers
 
         public IActionResult CustomerDashboard()
         {
+            Console.WriteLine("Customer Dashboard");
             return View();
         }
 
